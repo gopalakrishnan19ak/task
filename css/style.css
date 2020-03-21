@@ -1,0 +1,245 @@
+body{overflow-x: hidden;width: 100%;}
+p{/* text-align: center; */font-family:Montserrat;letter-spacing: 0;color: #1C1C1C;line-height:41px;font-weight:light;}
+
+h2.title {
+    text-align: left;
+    font: Bold 46px/57px Montserrat;
+    letter-spacing: 0;
+    color: #343434;
+    
+}
+a.nav-link img {
+    padding-left: 15px;
+	padding-right: 15px;
+}
+a#ptb1 {
+    background: #BC61CC;
+    color: white;
+    width: 216px;
+}
+.intro-info.pl-2 {
+    position: absolute;
+    top: 45%;
+    width: 70%;
+    padding-left: 4%!important;
+}
+
+ul.navbar-nav.ml-auto li {
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #343434;
+    /* opacity: 1; */
+    font-weight: 400;
+    line-height: 22px;
+}
+
+h2#head {
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    font-family:Montserrat;
+    letter-spacing: 0;
+    margin-top: 5%;
+    color: #343434;
+    font-weight:bold;
+}
+p.pt {
+    text-align: center;
+    font: Regular 30px/38px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #343434;
+    font-size: 30px;
+    line-height: 38px;
+    font-family: Montserrat;
+    padding: 1px 4%;
+    height: 78px;
+    color: black;
+}
+#box {background: #FFFFFF 0% 0% no-repeat padding-box;box-shadow: 0px 0px 16px #0000001C;border-radius: 20px;padding: 12% 0;}
+
+a#ptb {
+     margin-top: 4%; 
+    margin-bottom: 3%; 
+}
+div#box img {
+    width: auto;
+}
+span#right {
+    background-image: url("../img/icon.png");
+    /* left: 1px; */
+    width: 183px;
+    height: 107px;
+}
+.pt img.mr-auto.d-block {
+    width: 31px;
+    height: 31px;
+    float: left;
+}
+
+.request {
+    background: #41CB121A 0% 0% no-repeat padding-box;
+    padding: 2%;
+}
+h3{
+font: Bold 31px/42px Montserrat;
+    letter-spacing: 0;
+    color: #343434;
+    /* font-size: 34px; */
+}
+
+a#ptbs {
+    background: #41CB12;
+    border: none;
+    padding: 3% 30px;
+}
+
+
+a.btn-send {
+  background: #BC61CC 0% 0% no-repeat padding-box;
+border-radius: 8px;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    /* opacity: 1; */
+    font-size: 24px;
+    line-height: 28px;
+   
+    padding: 2% 20px;
+    box-shadow: none;
+}
+
+div#sub {
+    margin: 10% 0;
+}
+
+a.btn-send:hover {
+    color: white;
+}
+
+input#email, input#company, input#service, textarea#description {
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    border: 1px solid #AEAEAE;
+    border-radius: 8px;
+}
+
+label{
+text-align: left;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    color: #AEAEAE;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+footer.page-footer.font-small {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 2% 0;
+}
+
+
+ul.list-unstyled li a {
+    text-align: left;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    color: #1C1C1C;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 22px;
+}
+
+img.mr-auto.d-block.map {
+    float: left;
+    padding-right: 14px;
+    margin-bottom: 21px;
+}
+
+a#dire {
+    color: #2680EB;
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+ul.list-unstyled li {
+    padding-bottom: 30px;
+}
+
+
+img.mr-auto.d-block.phone {
+    float: left;
+    padding-right: 14px;
+	
+	}
+	
+	ul#ser li a {
+    text-align: left;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    color: #1C1C1C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight:  400;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul#ser li {
+    padding-bottom: 9px;
+    font-size: 18px;
+    text-align: left;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    color: #1C1C1C;
+    line-height: 22px;
+    font-weight: 400;
+}
+img#down {
+    position: absolute;
+    /* bottom: -25%; */
+    top: 110%;
+    left: 50%;
+}
+.collapse.show {
+    background: white;
+    z-index: 99999999;
+    width: 100%;
+}
+
+@media (max-width: 768px) { 
+ 
+
+.intro-info.pl-2 {
+    position: absolute;
+    top: 12%;
+    width: 99%;
+    padding-left: 4%!important;
+}
+h2.title {
+    text-align: left;
+    font: Bold 16px/30px Montserrat;
+    letter-spacing: 0;
+    color: #343434;
+}
+
+p {
+   
+       line-height: 24px;
+    }
+#box {
+   
+    margin-bottom: 20px;
+}
+.list-unstyled{
+    text-align: left;
+	}
+	
+	img.mr-auto.d-block.map {
+   
+    margin-bottom: 50px;
+}
+}
